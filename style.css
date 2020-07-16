@@ -1,0 +1,141 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3rem;
+}
+h2,
+h3,
+h4 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+h5,
+h6 {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+p {
+  font-weight: 400;
+}
+
+/* TITLE */
+
+#title {
+  background-image: linear-gradient(
+      rgba(2, 35, 41, 0.6) 0%,
+      rgba(2, 35, 41, 0.6) 100%
+    ),
+    url(coffeshop2.jpg);
+  background-size: 100%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  color: white;
+  padding: 3% 10% 13%;
+}
+.text-title {
+  padding-top: 7%;
+}
+.big-title {
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+/* FEATURES */
+
+#features {
+  background-color: wheat;
+  padding: 4% 15% 7%;
+}
+.features-row {
+  padding: 10px 15px;
+}
+.icon-features {
+  color: pink;
+}
+.icon-features:hover {
+  color: palevioletred;
+}
+
+/* SLIDE */
+
+#slide {
+  background-color: #292b2c;
+  background-image: url(coffeshop1.jpg);
+  background-repeat: repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+
+.text-slide {
+  padding: 15%;
+}
+
+/* MENU */
+
+#menu {
+  padding: 5% 15%;
+  background-color: wheat;
+}
+
+.menu-image {
+  width: 75%;
+  border-radius: 100%;
+  margin: 30px 20px 50px;
+  box-shadow: -3px 3px 15px;
+}
+
+/* ABOUT US */
+
+#about-us {
+  padding: 4% 15% 7%;
+  background-color: wheat;
+}
+
+.text-about-us {
+  padding: 2% 5%;
+}
+
+/* FOOTERS */
+
+#footer {
+  text-align: left;
+  color: white;
+  background-color: #292b2c;
+  padding: 5% 10%;
+}
+
+#copyright {
+  color: white;
+  background-color: #292b2c;
+  padding: 2% 15% 3%;
+}
+.icon-copyright {
+  margin-right: 15px;
+}
+
+.sticky {
+  width: 100%;
+  background: linear-gradient(30deg, #4aaa7a, #698962);
+  position: fixed;
+  top: 0;
+}
+.sticky a {
+  color: white;
+}
+
+/* ADDITIONAL */
+
+@media (max-width: 1028px) {
+  .text-slide {
+    padding: 25%;
+  }
+}
